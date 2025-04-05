@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#all {
+    background: #d7d7d7;
+}
+
+header {
+    background: #303030;
+    border: 5px solid #303030;
+    border-radius: 0px 0px 40px 40px;
+    text-align: center;
+    color: orange;
+
+    line-height: 500%;
+
+    display: flex;
+}
+
+.pythonimg {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.project-name {
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    color: orange;
+
+    text-decoration: none;
+
+    transition: all 500ms;
+}
+
+.go-back {
+    margin-left: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    color: orange;
+
+    text-decoration: none;
+
+    transition: all 500ms;
+}
+
+/* HEADER HOVERS */
+
+.project-name:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: default;
+}
+
+.go-back:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.main {
+    margin-top: 20px;
+
+    background: #d7d7d7;
+
+    color: black;
+
+    display: flex;
+}
+
+.smth {
+    margin-top: 20px;
+    margin-left: 50px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+}
+
+.go-to-first-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    top: -175px;
+    left: -75px;
+
+    transition: all 500ms;
+}
+
+.go-to-second-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    top: -175px;
+    left: -160px;
+
+    transition: all 500ms;
+}
+
+.go-to-third-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    top: -175px;
+    left: -240px;
+
+    transition: all 500ms;
+}
+
+.go-to-fourth-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    bottom: 50px;
+    left: -925px;
+
+    transition: all 500ms;
+}
+
+.go-to-fifth-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    top: -50px;
+    left: -1010px;
+
+    transition: all 500ms;
+}
+
+.go-to-sixth-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    top: -50px;
+    left: -1100px;
+
+    transition: all 500ms;
+}
+
+.go-to-seventh-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    bottom: -75px;
+    left: -1860px;
+
+    transition: all 500ms;
+}
+
+.go-to-eighth-practice {
+    margin-top: 200px;
+    margin-left: 100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    background: #ffa500;
+    border: 5px solid #f7b43a;
+    border-radius: 20px;
+    width: fit-content;
+    height: 100px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+    bottom: -75px;
+    left: -1950px;
+
+    transition: all 500ms;
+}
+
+/* MAIN HOVERS */
+
+.go-to-first-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-second-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-third-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-fourth-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-fifth-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-sixth-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-seventh-practice:hover {
+    color: greenyellow;
+}
+
+.go-to-eighth-practice:hover {
+    color: greenyellow;
+}
+
+/* MAIN SELECT */
+
+.smth::selection {
+    background: greenyellow;
+}
+
+.go-to-first-practice::selection {
+    background: greenyellow;
+}
+
+.go-to-second-practice::selection {
+    background: greenyellow;
+}
+
+.go-to-third-practice::selection {
+    background: greenyellow;
+}
+
+.project-name::selection {
+    background: greenyellow;
+}
+
+.go-back::selection {
+    background: greenyellow;
+}
+
+.pythonimg::selection {
+    background: greenyellow;
+}

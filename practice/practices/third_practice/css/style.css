@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#all {
+    background: #d7d7d7;
+}
+
+header {
+    background: #303030;
+    border: 5px solid #303030;
+    border-radius: 0px 0px 40px 40px;
+    text-align: center;
+    color: orange;
+
+    line-height: 500%;
+
+    display: flex;
+}
+
+.pythonimg {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.project-name {
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    color: orange;
+
+    text-decoration: none;
+
+    transition: all 500ms;
+}
+
+.go-back {
+    margin-left: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    color: orange;
+
+    text-decoration: none;
+
+    transition: all 500ms;
+}
+
+/* HEADER HOVERS */
+
+.project-name:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: default;
+}
+
+.go-back:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 20px;
+
+    background: #d7d7d7;
+
+    color: black;
+
+    display: flex;
+}
+
+#practice-opisanie {
+    background: #252525;
+    border: 5px solid #292929;
+    border-radius: 20px;
+    color: orange;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+
+.check {
+    width: fit-content;
+    height: fit-content;
+
+    background: #252525;
+    
+    border: 5px solid #292929;
+    border-radius: 20px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+
+    color: orange;
+
+    position: relative;
+
+    bottom: -450px;
+    left: -440px;
+
+    transition: all 500ms;
+}
+
+/* MAIN HOVERS */
+
+.check:hover {
+    color: #4aaa39;
+    cursor: pointer;
+}
+
+/* MAIN SELECTIONS */
+
+.project-name::selection {
+    background: greenyellow;
+}
+
+.go-back::selection {
+    background: greenyellow;
+}
+
+.check::selection {
+    background: greenyellow;
+}
+
+
+
+#practice-opisanie::selection {
+    background: greenyellow;
+}
+
+.pythonimg::selection {
+    background: greenyellow;
+}
+
+/* CODE EDITOR */
+
+/* Володя, это обращение к самому себе завтра, СДЕЛАЙ 8 ЗАДАНИЙ, потом СДЕЛАЙ ПОДСВЕТКУ если не лень */
+
+#code-editor {
+    background: #252525;
+    max-width: 425px;
+    max-height: 400px;
+    min-width: 425px;
+    min-height: 400px;
+
+    padding: 20px;
+    border: 5px solid silver;
+    border-radius: 20px;
+
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#code-editor::selection {
+    background: green;
+}
+
+#first {
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#second {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#third {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#fourth {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#fifth {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#sixth {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#seventh {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#eighth {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#nineth {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}
+#tenth {
+    margin-top: 5px;
+
+    background: #252525;
+    color: #b2ffa4;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 400px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+
+    padding: 5px;
+}

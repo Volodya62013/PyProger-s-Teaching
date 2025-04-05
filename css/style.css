@@ -1,0 +1,159 @@
+/* GLOBAL STYLE */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa500;
+}
+
+#all {
+    background: #d7d7d7;
+}
+
+/* HEADER */
+
+.header {
+    background: #303030;
+    border: 5px solid #303030;
+    border-radius: 0px 0px 40px 40px;
+    text-align: center;
+    color: orange;
+
+    line-height: 500%;
+
+    display: flex;
+}
+
+.pythonimg {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.project-name {
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    transition: all 500ms;
+}
+
+.go-to-lessons {
+    margin-left: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    transition: all 500ms;
+}
+
+.go-to-about_us {
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+
+    background: #292929;
+    border: 5px solid #252525;
+    border-radius: 20px;
+
+    transition: all 500ms;
+}
+
+/* HEADER HOVERS: */
+
+.go-to-lessons:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: pointer;
+}
+
+.go-to-about_us:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: pointer;
+}
+
+.project-name:hover {
+    background: #303030;
+    border: 0px solid #303030;
+
+    color: #4aaa39;
+
+    cursor: default;
+}
+
+/* MAIN */
+
+.main {
+    background: #d7d7d7;
+    text-align: center;
+    color: #252525;
+
+    display: block;
+}
+
+.text {
+    margin: 150px 200px;
+    
+    background: #ffa500;
+    border: 10px solid #ffbd43;
+    border-radius: 30px;
+
+    width: 500px;
+    height: fit-content;
+}
+
+.first-h1-in-main {
+    font-size: 3.4em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.first-span-in-main {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.first-pythonimg-in-main {
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+    right: -350px;
+    top: -550px;
+}
+
+/* MAIN SELECTIONS */
+
+.main::selection {
+    background: greenyellow;
+}
+
+.header::selection {
+    background: greenyellow;
+}
+
+.pythonimg::selection {
+    background: greenyellow;
+}

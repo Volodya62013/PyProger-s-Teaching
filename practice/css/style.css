@@ -356,6 +356,26 @@ header {
     background: greenyellow;
 }
 
+.go-to-fourth-practice::selection {
+    background: greenyellow;
+}
+
+.go-to-fifth-practice::selection {
+    background: greenyellow;
+}
+
+.go-to-sixth-practice::selection {
+    background: greenyellow;
+}
+
+.go-to-seventh-practice::selection {
+    background: greenyellow;
+}
+
+.go-to-eighth-practice::selection {
+    background: greenyellow;
+}
+
 .project-name::selection {
     background: greenyellow;
 }
